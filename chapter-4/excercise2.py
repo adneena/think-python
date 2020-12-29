@@ -20,6 +20,7 @@ def is_triangle(a, b, c):
     else:
         print('Yes')
 
+
 is_triangle(1, 2, 3) # it's possible to arrange a triangle
 is_triangle(1, 2, 9) # it's not possible to arrange a triangle
 print()
