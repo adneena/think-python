@@ -1,5 +1,6 @@
 import urllib
 
+# add comments
 zipcode = '02492'
 
 url = 'http://uszip.com/zip/' + zipcode
@@ -9,9 +10,9 @@ for line in conn.fp:
     line = line.strip()
     if 'Population' in line:
         print(line)
-    if 'Longitude' in line: 
+    if 'Longitude' in line:
         print(line)
-    if 'Latitude' in line: 
+    if 'Latitude' in line:
         print(line)
 
 conn.close()
